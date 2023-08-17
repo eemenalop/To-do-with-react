@@ -1,16 +1,15 @@
 import './App.css';
-import Task from './components/Task';
+import ListTask from './components/ListTask';
 
 function App() {
   return (
     <div className="to-do-app">
       <div className='principal-tasks-list'>
         <h1>My Tasks</h1>
-        <Task text='Aprender React' />
-
+        <ListTask />
       </div>
     </div>
   );
-}
+};
 
 export default App;
